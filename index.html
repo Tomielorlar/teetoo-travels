@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Tee-Too travels <span>.</span></a>
+        <nav class="navbar">
+            <ul>
+                <li><a data-scroll="home" href="#home" class="active">home</a></li>
+                <li><a data-scroll="feature" href="#feature">features</a></li>
+                <li><a data-scroll="about" href="#about">about</a></li>
+                <li><a data-scroll="gallery" href="#gallery">gallery</a></li>
+                <li><a data-scroll="review" href="#review">review</a></li>
+                <li><a data-scroll="contact" href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- home section -->
+
+    <section class="home" id="home">
+        <div class="video">
+            <video src="./travel-pics/flow.mp4" loop muted autoplay></video>
+        </div>
+
+        <div class="content">
+            <h1>explore new places, <br> adventure awaits.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Praesentium quae laudantium dolores voluptatibus aliquid vero corporis voluptatem dolor hic sequi?</p>
+        </div>
+
+        <div class="form-container">
+            <form action="">
+
+                <h3>search your destination</h3>
+                <span>location</span>
+                <input type="text" placeholder="place you want to visit">
+
+                <span>guest numbers</span>
+                <input type="number" placeholder="number of peoples">
+
+                <span>arrivals</span>
+                <input type="date">
+
+                <span>leaving</span>
+                <input type="date">
+
+                <input type="submit" value="search">
+            </form>
+        </div>
+        
+    </section>
+
+    <!-- features section -->
+
+    <section class="feature" id="feature">
+        <h1 class="heading"><span>f</span>eatured<span> L</span>ocation</h1>
+        <div class="card-container">
+            <div class="card">
+                <span class="discount">-35%</span>
+                <img src="./travel-pics/de1.jpeg" alt="">
+                <div class="content">
+                    <h3 class="title">hawali</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem amet
+                         officiis odio iure assumenda quisquam ipsam quo cupiditate culpa hic?</p>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         <a href="#"><button class="btn">check out!</button></a>
+                </div>
+            </div>
+             <div class="card">
+                <!-- <span class="discount">-35%</span> -->
+                <img src="./travel-pics/mountain.jpeg" alt="">
+                <div class="content">
+                    <h3>Ethopia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem amet
+                         officiis odio iure assumenda quisquam ipsam quo cupiditate culpa hic?</p>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         <a href="#"><button class="btn">check out!</button></a>
+                </div>
+            </div>
+             <div class="card">
+                <span class="discount">-45%</span>
+                <img src="./travel-pics/Hollywood.jpeg" alt="">
+                <div class="content">
+                    <h3>new york</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem amet
+                         officiis odio iure assumenda quisquam ipsam quo cupiditate culpa hic?</p>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                         <a href="#"><button class="btn">check out!</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <Section class="about" id="about">
+        <h1 class="heading"><span>a</span>bout<span> u</span>s</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="./travel-pics/about.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>why choose us?</h3>
+                <p>Select us for your travels to unlock a world of possibilities. With a diverse array of destinations, 
+                personalized service, competitive prices, and seamless bookings, we ensure your journey is nothing short 
+                of extraordinary. 
+                Trust us to tailor unforgettable experiences that exceed your expectations every step of the way.</p>
+                 <a href="#"><button class="btn btn1">read more</button></a>
+                 <a href="#"><button class="btn">get started</button></a>
+            </div>
+        </div>
+    </Section>
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading"><span>g</span>allery</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./travel-pics/beach1.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./travel-pics/travel.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./travel-pics/beach2.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./travel-pics/wf2.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./travel-pics/de.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./travel-pics/wf1.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-search"></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading"><span>r</span>eview</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="./travel-pics/IMG-20220726-WA0041.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Evelyn Kane</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Voluptates quia reiciendis ut voluptatum, neque alias pariatur voluptate optio aliquid vel.</p>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./travel-pics/IMG-20220921-WA0001.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Priscilla Daniel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Voluptates quia reiciendis ut voluptatum, neque alias pariatur voluptate optio aliquid vel.</p>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./travel-pics/IMG-20220822-WA0017.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Adriana Julius</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Voluptates quia reiciendis ut voluptatum, neque alias pariatur voluptate optio aliquid vel.</p>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>c</span>ontact <span>u</span>s</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1213909078547!2d3.903998073736056!3d7.340262513136041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10399207549c2305%3A0xf1717b376ba76bf3!2sBoluwaji%20Bus%20Stop!5e0!3m2!1sen!2sng!4v1715894596738!5m2!1sen!2sng"
+         width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" style="outline: none;" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        <div class="row">
+            <div class="contact-info">
+                <div class="box">
+                    <h3><i class="fas fa-home"></i>address</h3>
+                    <p>Boluwaji,<br> Ibadan <br>Oyo State <br> Nigeria</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-envelope"></i>email</h3>
+                    <p>towax247@gmail.com</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-phone"></i>phone</h3>
+                    <p>+234 8059514541</p>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <form action="">
+                    <h3>get in touch</h3>
+                    <div class="inputBox">
+                        <input type="text" placeholder="full name">
+                    <input type="text" placeholder="email">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <input type="submit" value="message">
+                </form>
+            </div>
+        </div>
+        </section>
+
+        <section class="newsletter">
+            <h1>sign up to 25% discount</h1>
+            <p>By signing up, you'll receive our latest travel deals, tips, and exclusive offers directly to your inbox. 
+            Don't miss out on this limited-time offer! Adventure awaits.</p>
+            <form action="">
+                <input type="email" placeholder="enter your email">
+                <input type="submit" value="sign up">
+            </form>
+        </section>
+
+        <footer>
+             <p>copyright © 2024 Tomielorlar | All right Reserved<p>
+             </div>
+             <p>Privacy Policy</p> &nbsp; &nbsp; &nbsp; &nbsp;
+             <p>Terms and Conditions</p> &nbsp; &nbsp; &nbsp; &nbsp;
+             <p>Contacts</p>
+             </div>
+             </footer>
+
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
